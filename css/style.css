@@ -46,7 +46,7 @@ body{
 .main-centered{
     position: relative;
     width: calc(564/1440*100%);
-    margin-left: calc(447/1440*100%);
+    margin-left: calc(470/1440*100%);
     margin-top: 15%;
 }
 
@@ -139,6 +139,94 @@ div.social-media a:first-child{
 .vert-stripes:nth-child(6){
     left: calc(1299/1440*100%);
 }
+
+.left-centered{
+    position: relative;
+    width: calc(564/1440*100%);
+    margin-left: calc(160/1440*100%);
+   
+}
+
+.white-bg{
+    width: 100%;
+    flex-wrap: wrap;
+}
+div.capstone{
+    flex: 1 1 100%;
+}
+div.social{
+    flex: 1 1 calc(44736/89101*100%);
+}
+div.TNW{
+    flex: 1 1 calc(44365/89101*100%);
+}
+div.tic-tac-toe{
+    flex: 1 1 calc(37304/131713*100%);
+}
+div.newsweek{
+    flex: 1 1 calc(94400/131713*100%);
+}
+.capstone a{
+    padding-top: calc(12529/31848*100%);
+}
+a.capstone-desk{
+
+
+    position: relative;
+    width: calc(1072/1327*100%);
+    height: auto;
+    background-image: url("../images/rorcapstonedesktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a.capstone-mobile{
+  
+    position: relative;
+    width: calc(255/1327*100%);
+    height: auto;
+    background-image: url("../images/rorcapstone.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a.social{
+    padding-top: calc(934/1920*100%);
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-image: url("../images/social.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a.TNW{
+    width: 100%;
+    padding-top: calc(934/1920*100%);
+    position: relative;
+    height: auto;
+    background-image: url("../images/TNW.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a.tic-tac-toe{
+    padding-top: calc(492/386*100%);
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-image: url("../images/tic-tac-toe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a.newsweek{
+    padding-top: calc(965/1920*100%);
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-image: url("../images/newsweek.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 background: #DB4747;
 mix-blend-mode: lighten;
 /* Template 6-main */
