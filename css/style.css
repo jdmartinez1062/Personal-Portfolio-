@@ -85,7 +85,7 @@ span.vector1{
     margin: 0 20px;
 }
 
-.square{
+.square-decoration{
     
     position: absolute;
     background-color:#EA6118 ;
@@ -234,21 +234,57 @@ h2.project{
 div.right-centered{
     position: relative;
     width: calc(474/1440*100%);
-    margin-left: calc(735/1440*100%);
+    left: calc(211/1440*100%);
 
 }
 
 div.squares{
     position: relative;
-    width: calc(514/1440*100%);
-    height: calc(514/1873*100%);
+    width: 657px;
+    left: calc(169/1440*100%);
 }
 div.square{
     background: #212123;
-box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
-border-radius: 4px;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 318.5px;
+    height: 318.5px;
+    margin:5px;
 }
 
 div.vector{
+    width: calc(48/245*100%);
+    padding-top: calc(48/245*100%);
+    margin: 1.8rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.about-info{
+    margin-left: 1.8rem;
     
+}
+div.square:nth-child(1) div.vector{
+    background-image: url(../icons/sharp.svg);
+}
+div.square:nth-child(2) div.vector{
+    background-image: url(../icons/square.svg);
+}
+div.square:nth-child(3) div.vector{
+    background-image: url(../icons/lightbulb.svg);
+}
+div.square:nth-child(4) div.vector{
+    background-image: url(../icons/gear.svg);
+}
+div.about-info h4{
+    color: #ffffff;
+    font: 400 1.5rem 'Spartan',sans-serif;
+    
+}
+div.about-info ul li{
+    color: #7D7C84    ;
+    font: 400 1.2rem 'Source Sans 3',sans-serif;
+    
+}
+section.about-me{
+    padding: 9% 0;
 }
