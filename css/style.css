@@ -73,10 +73,9 @@ h1{
     font: 400 1.2rem  'Source Sans 3',sans-serif;
     color: #ffffff;
 }
-.introduction p.orange{
+a.orange, p.orange{
     color: #EA6118;
     display: block;
-   
 }
 span.vector1{
     display: block;
@@ -287,4 +286,17 @@ div.about-info ul li{
 }
 section.about-me{
     padding: 9% 0;
+}
+.link-icon{
+    
+    display: block;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+a.link-icon{
+width: max-content;
+background-color: #1B1B1E;
 }
