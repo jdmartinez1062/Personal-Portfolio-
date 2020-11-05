@@ -309,11 +309,13 @@ div.back-tech div p{
 
 div.back-tech div{
     background-color: rgba(234,97,24, 0.2);
+    margin: 0.5rem;
     
 }
 p.project-description{
     font: 400 1.2rem 'Source Sans 3',sans-serif;
     color: #ffffff;
+    margin: 2rem;
     
 }
 
@@ -330,9 +332,40 @@ p.project-description{
     opacity: 0 !important;
 
 }
-#capstone-back{
-    width: calc(255/1327*100%);
+
+.back-tech-div{
+    padding: 1.2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #capstone{
     position: relative;
+}
+a.icon{
+    display: block;
+    color: #EA6118;
+    width: 130px;
+}
+a.icon span{
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+a.icon span.plain-git{
+    
+    background-image: url(../icons/plaingit.svg);
+    
+    
+}
+a.icon span.source{
+    
+    background-image: url(../icons/link.svg);
+    
 }
