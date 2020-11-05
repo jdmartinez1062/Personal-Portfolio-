@@ -31,9 +31,6 @@ window.onload = function () {
     document.getElementById(objects[i].id).addEventListener("mouseenter", enter)
     document.getElementById(objects[i].id).addEventListener("mouseleave", out)
   }
-
-  document.getElementById("capstone").addEventListener("mouseenter", enter)
-  document.getElementById("capstone").addEventListener("mouseleave", out)
 };
 
 

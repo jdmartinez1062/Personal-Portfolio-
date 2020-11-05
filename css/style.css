@@ -165,7 +165,7 @@ div.tic-tac-toe{
 div.newsweek{
     flex: 1 1 calc(94400/131713*100%);
 }
-.capstone div{
+.capstone > div:nth-child(2), .capstone > div:nth-child(3){
     padding-top: calc(12529/31848*100%);
 }
 div.capstone-desk {
@@ -225,8 +225,7 @@ div.newsweek div.project{
 }
 h2.project{
     display: block;
-    position: absolute;
-    
+    color: #FFFFFF;
 }
 div.right-centered{
     position: relative;
@@ -299,28 +298,41 @@ width: max-content;
 background-color: #1B1B1E;
 }
 
-div.back-tech p{
+div.back-tech div p{
     display: block;
     color: #EA6118;
-    background-color: #EA6118;
-    opacity: 0.2;
+    opacity: 1;
     font: 400 1.2rem 'Source Sans 3',sans-serif;
+    margin: 0;
+    padding: 0 0.5rem;
+}
+
+div.back-tech div{
+    background-color: rgba(234,97,24, 0.2);
+    
 }
 p.project-description{
     font: 400 1.2rem 'Source Sans 3',sans-serif;
     color: #ffffff;
+    
 }
 
-.detail div:nth-child(1){
+.detail > div:nth-child(1){
     position: absolute;
-    background-color: #1B1B1E;
-    opacity: 0.8;
+    top: 0;
+    background-color: rgba(27,27,30,0.95);
     z-index: 3;
-    transition: opacity 0.3;
+    transition: all 0.3;
 }
 .hide-detail{
     position: absolute;
     z-index: 0 !important;
     opacity: 0 !important;
 
+}
+#capstone-back{
+    width: calc(255/1327*100%);
+}
+#capstone{
+    position: relative;
 }
