@@ -165,12 +165,10 @@ div.tic-tac-toe{
 div.newsweek{
     flex: 1 1 calc(94400/131713*100%);
 }
-.capstone a{
+.capstone div{
     padding-top: calc(12529/31848*100%);
 }
-a.capstone-desk{
-
-
+div.capstone-desk {
     position: relative;
     width: calc(1072/1327*100%);
     height: auto;
@@ -178,7 +176,7 @@ a.capstone-desk{
     background-size: contain;
     background-repeat: no-repeat;
 }
-a.capstone-mobile{
+div.capstone-mobile {
   
     position: relative;
     width: calc(255/1327*100%);
@@ -188,7 +186,7 @@ a.capstone-mobile{
     background-repeat: no-repeat;
 }
 
-a.social{
+div.social div.project{
     padding-top: calc(934/1920*100%);
     position: relative;
     height: auto;
@@ -198,7 +196,7 @@ a.social{
     background-repeat: no-repeat;
 }
 
-a.TNW{
+div.TNW div.project{
     width: 100%;
     padding-top: calc(934/1920*100%);
     position: relative;
@@ -207,7 +205,7 @@ a.TNW{
     background-size: contain;
     background-repeat: no-repeat;
 }
-a.tic-tac-toe{
+div.tic-tac-toe div.project{
     padding-top: calc(492/386*100%);
     width: 100%;
     position: relative;
@@ -216,7 +214,7 @@ a.tic-tac-toe{
     background-size: cover;
     background-repeat: no-repeat;
 }
-a.newsweek{
+div.newsweek div.project{
     padding-top: calc(965/1920*100%);
     width: 100%;
     position: relative;
@@ -299,4 +297,30 @@ section.about-me{
 a.link-icon{
 width: max-content;
 background-color: #1B1B1E;
+}
+
+div.back-tech p{
+    display: block;
+    color: #EA6118;
+    background-color: #EA6118;
+    opacity: 0.2;
+    font: 400 1.2rem 'Source Sans 3',sans-serif;
+}
+p.project-description{
+    font: 400 1.2rem 'Source Sans 3',sans-serif;
+    color: #ffffff;
+}
+
+.detail div:nth-child(1){
+    position: absolute;
+    background-color: #1B1B1E;
+    opacity: 0.8;
+    z-index: 3;
+    transition: opacity 0.3;
+}
+.hide-detail{
+    position: absolute;
+    z-index: 0 !important;
+    opacity: 0 !important;
+
 }
