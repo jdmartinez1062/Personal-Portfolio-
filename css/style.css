@@ -372,15 +372,23 @@ a.icon span.source{
 footer.dark-bg{
     background-color: #212123;
 }
+footer.dark-bg a.link-icon{
+    background-color: #212123;
+    margin-top: 2%;
+}
 footer h2{
     color: #FFFFFF;
     font: 400 2.5rem 'Source Sans 3',sans-serif;
     margin: 2.5rem 0 0 0 ;
 }
 footer div.left-centered{
-    padding-top: 5%;
+    padding: 5% 0 5% 0;
+    left: calc(242/1440*100%);
 }
 footer div.social-media a{
     flex: 1 1 20%;
-    margin: 0 0 2rem 0;
+    margin: 5px 0 5px 0;
+}
+footer{
+    padding-bottom: 2%;
 }
