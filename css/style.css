@@ -541,6 +541,13 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
+  #capstone-desk{
+    display: none;
+  }
+  #capstone-mobile{
+    width: 100%;
+    padding-top: calc(737 / 360 * 100%);
+  }
   div.square {
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
