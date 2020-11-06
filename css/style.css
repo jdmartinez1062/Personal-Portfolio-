@@ -558,9 +558,11 @@ footer {
     margin: 2px;
     top: 10%;
   }
- #skills{
-   width: 350px;
- }
+
+  #skills {
+    width: 350px;
+  }
+
   div.capstone {
     flex: 1 1 100%;
   }
