@@ -23,9 +23,9 @@
     <div class="vert-stripes block"></div>
     <div class="vert-stripes block"></div>
     <article class="dark-bg container-fluid ">
-
+        <div class="square-decoration"></div>
         <section class="d-flex main-centered">
-            <div class="square-decoration"></div>
+
             <h1 class="number">
                 01
             </h1>
@@ -69,10 +69,10 @@
                     <h1>Portfolio</h1>
                 </div>
             </div>
-            <div class="white-bg d-flex container-fluid p-0">
+            <div id="project-wrapper" class="white-bg d-flex container-fluid p-0">
                 <div id="capstone" class="d-flex capstone p-1 detail">
-                    <div id="capstone" class="capstone-desk test detail"></div>
-                    <div id="capstone" class="capstone-mobile detail">
+                    <div id="capstone-desk" class="capstone-desk test detail"></div>
+                    <div id="capstone-mobile" class="capstone-mobile detail">
                         <div id="capstone-back" class="hide-detail detail back-tech-div ">
                             <h2 class="project ">Indie Developer Log</h2>
                             <div class="d-flex back-tech flex-wrap">
@@ -181,8 +181,11 @@
                             <p class="project-description">This project is a responsive mimick of the "Newsweek" webpage
                                 using Bootstrap.</p>
                             <div class="d-flex">
-                                <a class="icon d-flex" href="">See live <span class="plain-git"></span></a>
-                                <a class="icon d-flex" href="">See source <span class="source"></span></a>
+                                <a class="icon d-flex"
+                                    href="https://rawcdn.githack.com/jdmartinez1062/Using-Bootstrap/86278d5883f4d9464dc45b5e785f81a08bcaabe1/index.HTML">See
+                                    live <span class="plain-git"></span></a>
+                                <a class="icon d-flex" href="https://github.com/jdmartinez1062/Using-Bootstrap">See
+                                    source <span class="source"></span></a>
                             </div>
                         </div>
                     </div>
@@ -192,8 +195,8 @@
 
     </article>
     <article class="dark-bg container-fluid">
-        <section class="d-flex about-me">
-            <div class="d-flex right-centered order-2">
+        <section id="about-me-section" class="d-flex about-me flex-wrap">
+            <div id="about-me" class="d-flex right-centered ">
                 <h1 class="number">03</h1>
                 <div class="introduction">
                     <p>Learn more</p>
@@ -213,7 +216,7 @@
 
                 </div>
             </div>
-            <div class="squares d-flex flex-wrap order-1">
+            <div id="skills" class="squares d-flex flex-wrap ">
                 <div class="square">
                     <div class="vector"></div>
                     <div class="about-info">
@@ -263,7 +266,7 @@
             </div>
         </section>
     </article>
-    <footer class="dark-bg ">
+    <footer class="dark-bg container-fluid">
         <div class="d-flex left-centered">
             <h1 class="number">04</h1>
             <div class="introduction">
