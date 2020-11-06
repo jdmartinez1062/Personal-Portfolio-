@@ -668,4 +668,21 @@ footer {
     height: 14px;
     width: 14px;
   }
+
+  a.icon span {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 12.5px;
+    height: 12.5px;
+    margin-left: 15px;
+  }
+
+  a.icon {
+    font-size: 0.6rem;
+  }
+
+  div.back-tech div p {
+    font-size: 0.8rem;
+  }
 }
