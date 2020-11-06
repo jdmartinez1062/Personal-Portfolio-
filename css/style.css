@@ -541,13 +541,15 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-  #capstone-desk{
+  #capstone-desk {
     display: none;
   }
-  #capstone-mobile{
+
+  #capstone-mobile {
     width: 100%;
     padding-top: calc(737 / 360 * 100%);
   }
+
   div.square {
     box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
@@ -595,6 +597,7 @@ footer {
   footer div.left-centered {
     left: 0;
     margin: 0 2.5%;
+    padding-bottom: 10px;
     width: 100%;
   }
 
@@ -647,7 +650,7 @@ footer {
   }
 
   footer div.social-media a {
-    margin: 2.5px 0 2.5px 0;
+    margin: 5px 0 7px 0;
   }
 
   div.social-media a:first-child {
@@ -668,7 +671,7 @@ footer {
   footer h2 {
     color: #fff;
     font: 400 1.25rem 'Source Sans 3', sans-serif;
-    margin: 1.25rem 0 0 0;
+    margin: 0.7rem 0 0 0;
   }
 
   div.social-media a img {
@@ -688,9 +691,11 @@ footer {
   a.icon {
     font-size: 0.6rem;
   }
-  p.project-description{
+
+  p.project-description {
     margin: 0.2rem;
   }
+
   h2.project {
     font-size: 1rem;
     margin: 2px 0;
@@ -698,5 +703,9 @@ footer {
 
   div.back-tech div p {
     font-size: 0.6rem;
+  }
+
+  footer.dark-bg {
+    padding-bottom: 20px;
   }
 }
