@@ -681,8 +681,15 @@ footer {
   a.icon {
     font-size: 0.6rem;
   }
+  p.project-description{
+    margin: 0.2rem;
+  }
+  h2.project {
+    font-size: 1rem;
+    margin: 2px 0;
+  }
 
   div.back-tech div p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
